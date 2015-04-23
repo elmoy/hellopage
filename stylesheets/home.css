@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-04-17 23:53:29
+ * @version $Id$
+ */
+ p h3{
+    display: inline-block;
+ }
+ .rightmain{
+    margin-left: 30px;
+    margin-top:35px;
+ }
+ .rightmain ul li h3,
+ .skill h3{
+    font-weight: bold;
+    padding: 10px 10px 10px 0;
+    border-bottom: 1px #5C3300 solid;
+    width: 100px;
+ }
+ .rightmain li{
+    margin: 15px 0;
+ }
+ .skill ul li{
+    margin-left: 15px;
+    text-align: right;
+ }
+ .s_list{
+    overflow: hidden;
+    margin-left: 110px;
+    margin-top:20px;
+ }
+ .s_list i{
+    margin-left: 30px;
+    float: left;
+ }
+ .l_list{
+    width: 120px;
+    float: left;
+    display: inline-block;
+ }
+.r_list{
+    width: 590px;
+    float: right;
+}
+.r_list ul li{
+    text-align: left;
+}
+.jdt{
+    height: 15px;
+    display: inline-block;
+    border-radius: 20px;
+ }
+ .j1{
+    background-color: #00BBFE;
+     width: 170px;
+ }
+ .j2{
+    background-color: #0A75BB;
+    width: 21px;
+ }
+ .j3{
+    background-color: #E57711;
+    width: 170px;
+ }
+ .j4{
+    background-color: #7ACB15;
+    width: 21px;
+ }

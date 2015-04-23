@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-04-17 23:53:29
+ * @version $Id$
+ */
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #341E00;
+    border-radius: 10px;
+    color:#FFE9B0;
+}
+img{
+    border:0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    font-weight: normal;
+}
+/***********head*****div******/
+.headdiv{
+    width: 100%;
+    height: 100px;
+    background-color: #241800;
+}
+.headdiv h1{
+    font-size: 40px;
+    color:#FFE9B0;
+    padding:40px 0 0 200px;
+}
+.headimg{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    left: 40px;
+    top:10px;
+}
+/***********head*****div******/
+/***********main*****div******/
+.maindiv{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.leftdiv{
+    width: 200px;
+    margin-top: 100px;
+    float: left;
+}
+.leftdiv li{
+    border-top:1px #5C3300 solid;
+    padding: 10px 0;
+}
+.leftdiv li a{
+    color:#FFE9B0;
+    line-height: 32px;
+    padding: 19px 85px 15px 30px;
+    transition:all .25s ease-out;
+}
+.leftdiv ul li a:hover{
+    background-image: url(../pic/list.png);
+    background-repeat: no-repeat;
+    color:#fff;
+    padding: 19px 60px 15px 55px;
+}
+.leftdiv ul li p{
+    /*background-image: url(../pic/list.png);*/
+    background-repeat: no-repeat;
+    color:#703800;
+    font-size: 30px;
+    line-height: 32px;
+    padding: 19px 25px 15px 30px;
+}
+/**************left***************/
+/**************right***************/
+.rightdiv{
+    width: 75%;
+    margin-top: 60px;
+    float: right;
+}
+.rightdiv h2{
+    border-bottom: 1px  #704200 solid;
+    padding-left: 20px;
+    font-size: 2em;
+}
+/*******back**********/
+.back{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.back a{
+    color:#fff;
+    font-size: 35px;
+}

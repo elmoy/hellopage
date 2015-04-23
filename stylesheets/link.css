@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-04-18 18:22:25
+ * @version $Id$
+ */
+.rightmain img{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+.rightmain h3{
+    display: inline-block;
+    padding-left: 50px;
+    position: relative;
+    bottom:15px;
+}
+.rightmain ul{
+    margin-left: 50px;
+}
+.rightmain li{
+    border-bottom: 1px #704200 solid;
+    display: inline-block;
+}
